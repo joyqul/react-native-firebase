@@ -63,7 +63,7 @@
     }
 
     // TODO in a later version allow customising completion options in JS code
-    completionHandler(UNNotificationPresentationOptionNone);
+    completionHandler(UNAuthorizationOptionSound | UNAuthorizationOptionAlert | UNAuthorizationOptionBadge);
   }
 }
 
